@@ -52,7 +52,7 @@ struct ArenaTemp
 ////////////////////////////////
 // Arena Functions
 
-global U64 arena_default_reserve_size = MiB(64);
+global U64 arena_default_reserve_size = GiB(1);
 global U64 arena_default_commit_size = KiB(64);
 
 // arena creation/destruction

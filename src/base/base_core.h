@@ -105,6 +105,8 @@ typedef double F64;
 ////////////////////////////////
 //- Limits/Constants
 
+#define PI 3.14159265f
+
 read_only global U32 U32Max = 0xffffffff;
 
 read_only global S64 S64Max = 0x7FFFFFFFFFFFFFFF;
